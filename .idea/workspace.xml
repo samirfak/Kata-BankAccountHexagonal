@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0962b49-a15c-4dc0-816b-bbf27e20fc46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BankAccountApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapters/configuration/BeanConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapters/persistence/BankAccountJPARepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapters/persistence/BankAccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/model/History.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/model/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/port/incoming/HistoryUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/BankAccountTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankAccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankAccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/web/BankAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapters/web/BankAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/model/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/DepositUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/port/incoming/DepositUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/WithdrawUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/port/incoming/WithdrawUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/services/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/services/BankAccountService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -49,6 +56,96 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.BankAccountTest.illegal_withdrawal">
+    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-BankAccountHexagonal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest.histories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-BankAccountHexagonal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
+      <option name="METHOD_NAME" value="histories" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest.illegal_withdrawal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-BankAccountHexagonal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
+      <option name="METHOD_NAME" value="illegal_withdrawal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest.successful_deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-BankAccountHexagonal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
+      <option name="METHOD_NAME" value="successful_deposit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest.successful_withdrawal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-BankAccountHexagonal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
+      <option name="METHOD_NAME" value="successful_withdrawal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BankAccountTest.illegal_withdrawal" />
+        <item itemvalue="JUnit.BankAccountTest.histories" />
+        <item itemvalue="JUnit.BankAccountTest.successful_deposit" />
+        <item itemvalue="JUnit.BankAccountTest" />
+        <item itemvalue="JUnit.BankAccountTest.successful_withdrawal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668266081943</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Persistence &amp; Configuration">
+      <created>1668268853027</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668268853027</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -94,6 +198,7 @@
     <MESSAGE value="Implementation of the ports" />
     <MESSAGE value="Bank Account Service" />
     <MESSAGE value="Adapter Web" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adapter Web" />
+    <MESSAGE value="Persistence &amp; Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Persistence &amp; Configuration" />
   </component>
 </project>

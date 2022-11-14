@@ -1,7 +1,9 @@
 package application.port.incoming;
 
+import application.model.BankAccount;
+
 import java.math.BigDecimal;
 
 public interface DepositUseCase {
-    void deposit(Long id, BigDecimal amount);
+    BankAccount deposit(Long id, BigDecimal amount);
 }
