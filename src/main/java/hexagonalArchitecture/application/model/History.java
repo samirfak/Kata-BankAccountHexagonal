@@ -1,4 +1,4 @@
-package application.model;
+package hexagonalArchitecture.application.model;
 
 import java.math.BigDecimal;
 import java.util.Date;

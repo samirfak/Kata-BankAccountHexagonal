@@ -1,6 +1,6 @@
-package application.port.incoming;
+package hexagonalArchitecture.application.port.incoming;
 
-import application.model.BankAccount;
+import hexagonalArchitecture.application.model.BankAccount;
 
 import java.math.BigDecimal;
 

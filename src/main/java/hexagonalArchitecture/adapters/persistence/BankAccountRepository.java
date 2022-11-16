@@ -1,11 +1,12 @@
-package adapters.persistence;
+package hexagonalArchitecture.adapters.persistence;
 
-import application.model.BankAccount;
-import application.port.outcoming.LoadAccountPort;
-import application.port.outcoming.SaveAccountPort;
+import hexagonalArchitecture.application.model.BankAccount;
+import hexagonalArchitecture.application.port.outcoming.LoadAccountPort;
+import hexagonalArchitecture.application.port.outcoming.SaveAccountPort;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;
+
 @Component
 public class BankAccountRepository implements LoadAccountPort, SaveAccountPort {
     private final BankAccountJPARepository repository;
@@ -14,11 +15,11 @@ public class BankAccountRepository implements LoadAccountPort, SaveAccountPort {
     public BankAccountRepository (BankAccountJPARepository repository) {
         this.repository = repository;
     }
-
+    @Override
     public Optional<BankAccount> load(Long id) {
         return repository.findById(id);
     }
-
+    @Override
     public void save(BankAccount bankAccount) {
         repository.save(bankAccount);
     }

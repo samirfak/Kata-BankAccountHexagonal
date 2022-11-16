@@ -5,18 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0962b49-a15c-4dc0-816b-bbf27e20fc46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/model/History.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/model/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/application/port/incoming/HistoryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/model/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/model/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/incoming/DepositUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/incoming/HistoryUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/incoming/WithdrawUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/outcoming/LoadAccountPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/outcoming/SaveAccountPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/controller/BankAccountControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/repository/BankAccountRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/services/BankAccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BankAccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BankAccountApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/web/BankAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adapters/web/BankAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/model/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/DepositUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/port/incoming/DepositUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/WithdrawUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/port/incoming/WithdrawUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/services/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/services/BankAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankAccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/BankAccountApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/configuration/BeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/configuration/BeanConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/persistence/BankAccountJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/persistence/BankAccountJPARepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/persistence/BankAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/persistence/BankAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/web/BankAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/web/BankAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/model/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/model/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/DepositUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/HistoryUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/WithdrawUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/outcoming/LoadAccountPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/outcoming/SaveAccountPort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/application/services/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/services/BankAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/BankAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +53,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,84 +86,75 @@
     "jdk.selected.JAVA_MODULE": "openjdk-18",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.com.haulmont.jpb.tools"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.BankAccountTest.illegal_withdrawal">
-    <configuration name="BankAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in Kata-BankAccountHexagonal">
+    <configuration name="BankAccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hexagonalArchitecture.BankAccountApplication" />
       <module name="Kata-BankAccountHexagonal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="hexagonalArchitecture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.histories" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in Kata-BankAccountHexagonal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kata-BankAccountHexagonal" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountRepositoryTest.make_jpa_save_when_saved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-BankAccountHexagonal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
-      <option name="METHOD_NAME" value="histories" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.BankAccountRepositoryTest" />
+      <option name="METHOD_NAME" value="make_jpa_save_when_saved" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.illegal_withdrawal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountRepositoryTest.when_not_saved_then_load_by_id_null" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-BankAccountHexagonal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
-      <option name="METHOD_NAME" value="illegal_withdrawal" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.BankAccountRepositoryTest" />
+      <option name="METHOD_NAME" value="when_not_saved_then_load_by_id_null" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankAccountTest.successful_deposit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BankAccountRepositoryTest.when_saved_then_load_by_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Kata-BankAccountHexagonal" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="repository.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
-      <option name="METHOD_NAME" value="successful_deposit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BankAccountTest.successful_withdrawal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Kata-BankAccountHexagonal" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="model.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.BankAccountTest" />
-      <option name="METHOD_NAME" value="successful_withdrawal" />
+      <option name="PACKAGE_NAME" value="repository" />
+      <option name="MAIN_CLASS_NAME" value="repository.BankAccountRepositoryTest" />
+      <option name="METHOD_NAME" value="when_saved_then_load_by_id" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BankAccountTest.illegal_withdrawal" />
-        <item itemvalue="JUnit.BankAccountTest.histories" />
-        <item itemvalue="JUnit.BankAccountTest.successful_deposit" />
-        <item itemvalue="JUnit.BankAccountTest" />
-        <item itemvalue="JUnit.BankAccountTest.successful_withdrawal" />
+        <item itemvalue="JUnit.All in Kata-BankAccountHexagonal" />
+        <item itemvalue="Application.BankAccountApplication" />
+        <item itemvalue="JUnit.BankAccountRepositoryTest.make_jpa_save_when_saved" />
+        <item itemvalue="JUnit.BankAccountRepositoryTest.when_saved_then_load_by_id" />
+        <item itemvalue="JUnit.BankAccountRepositoryTest.when_not_saved_then_load_by_id_null" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668268853027</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="History management &amp; Model test beginning">
+      <created>1668443893344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668443893344</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +230,18 @@
     <MESSAGE value="Bank Account Service" />
     <MESSAGE value="Adapter Web" />
     <MESSAGE value="Persistence &amp; Configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Persistence &amp; Configuration" />
+    <MESSAGE value="History management &amp; Model test beginning" />
+    <option name="LAST_COMMIT_MESSAGE" value="History management &amp; Model test beginning" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hexagonalArchitecture/BankAccountApplication.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

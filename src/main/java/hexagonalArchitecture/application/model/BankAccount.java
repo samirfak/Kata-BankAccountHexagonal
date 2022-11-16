@@ -1,16 +1,28 @@
-package application.model;
+package hexagonalArchitecture.application.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.stream.Collectors;
-
+@Entity
 public class BankAccount {
     //id of the bank account
+    @Id
     private Long id;
     //balance of the bank account
     private BigDecimal balance;
     private ArrayList<History> histories;
+
+    public BankAccount() {
+        this.histories = new ArrayList<>();
+    }
+    public BankAccount(Long id, BigDecimal balance) {
+        this.id = id;
+        this.balance = balance;
+        this.histories = new ArrayList<>();
+    }
 
     public Long getId() {
         return id;
@@ -32,11 +44,7 @@ public class BankAccount {
         this.histories = histories;
     }
 
-    public BankAccount(Long id, BigDecimal balance) {
-        this.id = id;
-        this.balance = balance;
-        this.histories = new ArrayList<>();
-    }
+
 
     /**
      * Withdraw an amount from the bank account
@@ -55,6 +63,10 @@ public class BankAccount {
         balance = balance.subtract(amount);
         histories.add(new History(Operation.WITHDRAWAL, new Date(), amount, balance));
         return true;
+    }
+
+    public void setBalance(BigDecimal balance) {
+        this.balance = balance;
     }
 
     /**

@@ -1,4 +1,4 @@
-package application.model;
+package hexagonalArchitecture.application.model;
 
 public enum Operation {
     DEPOSIT,

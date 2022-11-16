@@ -1,10 +1,11 @@
-package adapters.web;
+package hexagonalArchitecture.adapters.web;
 
-import application.model.BankAccount;
-import application.port.incoming.DepositUseCase;
-import application.port.incoming.HistoryUseCase;
-import application.port.incoming.WithdrawUseCase;
+import hexagonalArchitecture.application.model.BankAccount;
+import hexagonalArchitecture.application.port.incoming.DepositUseCase;
+import hexagonalArchitecture.application.port.incoming.HistoryUseCase;
+import hexagonalArchitecture.application.port.incoming.WithdrawUseCase;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,19 +26,19 @@ public class BankAccountController {
         this.historyUseCase = historyUseCase;
     }
 
-    @PostMapping(value = "/{id}/deposit/{amount}")
+    @PostMapping(value = "/{id}/deposit/{amount}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<BankAccount> deposit(@PathVariable final Long id, @PathVariable final BigDecimal amount) {
         BankAccount account = depositUseCase.deposit(id, amount);
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(account);
     }
 
-    @PostMapping(value = "/{id}/withdraw/{amount}")
+    @PostMapping(value = "/{id}/withdraw/{amount}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<BankAccount> withdraw(@PathVariable final Long id, @PathVariable final BigDecimal amount) {
         BankAccount account = withdrawUseCase.withdraw(id, amount);
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(account);
     }
 
-    @PostMapping(value = "/{id}/history")
+    @PostMapping(value = "/{id}/history", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> history(@PathVariable final Long id) {
         String history = historyUseCase.history(id);
         return ResponseEntity.status(HttpStatus.OK).body(history);

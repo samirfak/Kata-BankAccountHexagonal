@@ -1,11 +1,12 @@
-package application.services;
+package hexagonalArchitecture.application.services;
 
-import application.model.BankAccount;
-import application.port.incoming.DepositUseCase;
-import application.port.incoming.HistoryUseCase;
-import application.port.incoming.WithdrawUseCase;
-import application.port.outcoming.LoadAccountPort;
-import application.port.outcoming.SaveAccountPort;
+import hexagonalArchitecture.application.model.BankAccount;
+import hexagonalArchitecture.application.port.incoming.DepositUseCase;
+import hexagonalArchitecture.application.port.incoming.HistoryUseCase;
+import hexagonalArchitecture.application.port.incoming.WithdrawUseCase;
+import hexagonalArchitecture.application.port.outcoming.LoadAccountPort;
+import hexagonalArchitecture.application.port.outcoming.SaveAccountPort;
+import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.util.NoSuchElementException;

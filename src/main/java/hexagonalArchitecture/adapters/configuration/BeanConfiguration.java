@@ -1,13 +1,14 @@
-package adapters.configuration;
+package hexagonalArchitecture.adapters.configuration;
 
-//import BankAccountApplication;
-import adapters.persistence.BankAccountRepository;
-import application.services.BankAccountService;
+import hexagonalArchitecture.BankAccountApplication;
+import hexagonalArchitecture.adapters.persistence.BankAccountRepository;
+import hexagonalArchitecture.application.services.BankAccountService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration //@ComponentScan(basePackageClasses = BankAccountApplication.class)
+@Configuration
+@ComponentScan(basePackageClasses = BankAccountApplication.class)
 public class BeanConfiguration {
 
     @Bean

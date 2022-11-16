@@ -1,11 +1,9 @@
-package adapters.persistence;
+package hexagonalArchitecture.adapters.persistence;
 
-import application.model.BankAccount;
+import hexagonalArchitecture.application.model.BankAccount;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.Optional;
 @Repository
 public interface BankAccountJPARepository extends JpaRepository<BankAccount, Long> {
-    public Optional<BankAccount> findById(Long id);
 }
