@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0962b49-a15c-4dc0-816b-bbf27e20fc46" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/model/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/incoming/DepositUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/incoming/HistoryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/incoming/WithdrawUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/outcoming/LoadAccountPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/port/outcoming/SaveAccountPort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/controller/BankAccountControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/repository/BankAccountRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/services/BankAccountServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BankAccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/BankAccountApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/configuration/BeanConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/configuration/BeanConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/persistence/BankAccountJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/persistence/BankAccountJPARepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/persistence/BankAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/persistence/BankAccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adapters/web/BankAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/adapters/web/BankAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/model/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/model/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/model/Operation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/DepositUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/HistoryUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/incoming/WithdrawUseCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/outcoming/LoadAccountPort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/port/outcoming/SaveAccountPort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/application/services/BankAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexagonalArchitecture/application/services/BankAccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/model/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/BankAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/controller/BankAccountControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/controller/BankAccountControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668443893344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="End of unit tests and end of the project">
+      <created>1668603762653</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668603762653</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,14 +211,15 @@
     <MESSAGE value="Adapter Web" />
     <MESSAGE value="Persistence &amp; Configuration" />
     <MESSAGE value="History management &amp; Model test beginning" />
-    <option name="LAST_COMMIT_MESSAGE" value="History management &amp; Model test beginning" />
+    <MESSAGE value="End of unit tests and end of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of unit tests and end of the project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/hexagonalArchitecture/BankAccountApplication.java</url>
-          <line>9</line>
+          <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
